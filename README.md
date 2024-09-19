@@ -39,3 +39,14 @@ The Employee Management System is a RESTful API developed using Spring Boot for 
 * POST /departments: Add a new department.
 * PUT /departments/{id}: Update a department’s details.
 * DELETE /departments/{id}: Delete a department by ID.
+
+## Database Schema
+### Employee Table
+* ID: Primary Key
+* Name: Employee's name
+* Email: Employee's email address
+* Department: Many-to-One relationship with the Department table
+### Department Table
+* ID: Primary Key
+* Name: Department's name
+* Employees: One-to-Many relationship with the Employee table
