@@ -9,3 +9,10 @@ The Employee Management System is a RESTful API developed using Spring Boot for 
 * Custom Exception Handling: Clear error messages for invalid requests.
 * Get Employees by Department: Retrieve all employees under a specific department.
 * Relational Database: Managed using JPA and Hibernate.
+
+## Project Structure
+* Controllers: Manage HTTP requests and responses.
+* Services: Handle business logic.
+* Repositories: Interact with the database using Spring Data JPA.
+* Entities: Represent the data models for Employee and Department, including their relationships.
+* Exception Handling: Custom exceptions for handling invalid input.
