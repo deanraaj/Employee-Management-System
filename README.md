@@ -50,3 +50,6 @@ The Employee Management System is a RESTful API developed using Spring Boot for 
 * ID: Primary Key
 * Name: Department's name
 * Employees: One-to-Many relationship with the Employee table
+### Relationship
+* Many-to-One: Each employee is assigned to one department.
+* One-to-Many: A department can have multiple employees.
