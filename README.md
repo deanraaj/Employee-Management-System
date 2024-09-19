@@ -24,3 +24,18 @@ The Employee Management System is a RESTful API developed using Spring Boot for 
 * Hibernate: For managing data persistence.
 * MySQL: Relational database system.
 * Maven: For project build and dependency management.
+
+## REST API Endpoints
+### Employee Endpoints
+* GET /employees: Fetch all employees.
+* GET /employees/{id}: Fetch a specific employee by ID.
+* POST /employees: Add a new employee and assign them to a department.
+* PUT /employees/{id}: Update an employee’s details.
+* DELETE /employees/{id}: Delete an employee by ID.
+* GET /employees/department/{departmentId}: Fetch all employees by department ID.
+### Department Endpoints
+* GET /departments: Fetch all departments.
+* GET /departments/{id}: Fetch a specific department by ID.
+* POST /departments: Add a new department.
+* PUT /departments/{id}: Update a department’s details.
+* DELETE /departments/{id}: Delete a department by ID.
